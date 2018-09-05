@@ -1,3 +1,2 @@
 # JAVATRAVISTEST
-
-https://travis-ci.com/KoMMet/JAVATRAVISTEST.svg?branch=master
+[![Build Status](https://travis-ci.com/KoMMet/JAVATRAVISTEST.svg?branch=master)](https://travis-ci.com/KoMMet/JAVATRAVISTEST)

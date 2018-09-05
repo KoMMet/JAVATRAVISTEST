@@ -5,3 +5,6 @@ dist: trusty
 
 jdk:
   - oraclejdk10
+  
+before_script:
+- chmod a+x gradle/wrapper/gradle-wrapper.jar

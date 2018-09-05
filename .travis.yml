@@ -1,11 +1,11 @@
 language: java
-
 sudo: required
 dist: trusty
-
 jdk:
-  - oraclejdk10
-  
+- oraclejdk10
 before_script:
 - chmod a+x gradlew
 - chmod a+x gradle/wrapper/gradle-wrapper.jar
+notifications:
+  slack:
+    secure: CKvKA7YV/7twkN+pX/PtSw+cgjlXFm7d+oUrDIthFJV7xI8vVXRZPNlyqC6NTu+EZFmWO2Ccq9i4Tkrr92UhKKh4P2mCmfdxtBvCdGiHxiWLZnnrgxGJcPcB/Z/t0H5ssSdM1w43F9XJulKeCGQwlJx8smMG2PhOAWfkz2+8yd0K1tQeU6cbrNToZduzM9OrbhXCgL04dK2KZkmSlqO/+va0nR0oUvw/fNS4Mp/xbFzwHnoHhy98uRxCm4r/io4t4EcQT+ndQFAb4pRxwqkq008N+D/tqOAyT9Ljdjz/lG8RTunpkfO7BSnipZgaykQDHAcTvmqOF03fr44Dtu/zlSXsls/HeIOa3sSUCCY2k+1B1yiJ6u7YyEkyYOf/7M9krS/Wvmne4W87Y16Uli6yvNHAY5CARuJwH0j0UyHU9Lb5gl+Ds5KojCK8Bvisow+2vHjTA0euSHHEqUG6ZutfdChg2lXVpSzKViYde1aDsu5z3SSDX6yoWTdQmcdG3s7N6Tr5DUmtCiVh8CPLRIy5Dx5jZsw26kRYR5pdyeD2yjQqWOiOMDQjzdZ1K/vSqDVUkyofNhXCrcqHptEb8ZNaQTD5dctPs2UFsxOro4J6lMytKVJ7fzWEk8LIkA7KnIaF2oguQ+NA4W4qRlmq6ir8VM33V5Cdxet+ETtbyfPxKeg=

@@ -7,4 +7,5 @@ jdk:
   - oraclejdk10
   
 before_script:
+- chmod a+x gradlew
 - chmod a+x gradle/wrapper/gradle-wrapper.jar

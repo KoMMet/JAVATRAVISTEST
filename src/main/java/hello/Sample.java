@@ -6,6 +6,6 @@ public class Sample {
     {
         int debug;
         debug = a + b;
-        return a + b + b;
+        return a + b;
     }
 }
